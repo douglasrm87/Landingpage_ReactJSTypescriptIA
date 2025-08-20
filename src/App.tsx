@@ -1,3 +1,18 @@
+/**
+ * Main application component that sets up global providers and routing.
+ * 
+ * - Wraps the app with React Query's `QueryClientProvider` for data fetching and caching.
+ * - Provides tooltip functionality via `TooltipProvider`.
+ * - Renders two toaster components for notifications: `Toaster` and `Sonner`.
+ * - Uses React Router's `BrowserRouter` and `Routes` for client-side routing.
+ * - Defines the main route (`/`) and a catch-all route for 404 pages.
+ * Para rodar 
+    
+    npm run dev
+
+
+ * 
+ */
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";

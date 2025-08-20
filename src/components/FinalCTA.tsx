@@ -5,7 +5,22 @@ import ctaMockup from "@/assets/cta-mockup.jpg";
 const FinalCTA = () => {
   return (
     <section className="section-spacing bg-gradient-primary text-primary-foreground relative overflow-hidden">
-      {/* Background Pattern */}
+      {/* Background Pattern 
+      Este trecho cria um efeito visual de fundo suave e translúcido.
+      Aqui está o que cada parte faz:
+  
+      className="absolute inset-0 opacity-10":
+      Posiciona o elemento para ocupar todo o espaço do seu contêiner pai (absolute inset-0) e o deixa quase transparente (opacity-10).
+    
+      Dentro dele, há outro div também ocupando todo o espaço (absolute inset-0), com duas classes de fundo:
+
+      bg-white/5: Aplica uma cor branca com baixa opacidade.
+      bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1),transparent)]: Adiciona um gradiente radial, do centro para as bordas, que começa com branco translúcido e termina transparente.
+
+      Finalidade:
+      Criar um efeito de brilho ou iluminação suave no fundo, tornando o conteúdo mais atraente visualmente sem interferir na legibilidade. É um recurso comum em interfaces modernas para dar profundidade e destaque.
+
+      */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-white/5 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1),transparent)]"></div>
       </div>
@@ -16,7 +31,7 @@ const FinalCTA = () => {
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-6">
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Quero Multiplicar Meu Faturamento
+                FinalCTA.tsx - Quero Multiplicar Meu Faturamento
               </h2>
               
               <p className="text-xl opacity-90 max-w-2xl mx-auto lg:mx-0">
@@ -69,7 +84,7 @@ const FinalCTA = () => {
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-white text-primary px-4 py-2 rounded-lg shadow-lg">
-                <span className="text-sm font-bold">98% satisfação</span>
+                <span className="text-sm font-bold">98% satisfação - FinalCTA.tsx</span>
               </div>
             </div>
           </div>

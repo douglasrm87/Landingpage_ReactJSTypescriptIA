@@ -20,6 +20,9 @@ const Index = () => {
       <FAQ />
       <FinalCTA />
       <Footer />
+      <div>
+        <h2 style={{ color: "pink", fontSize: 20 }}>Index.tsx FIM</h2>
+      </div>
     </div>
   );
 };

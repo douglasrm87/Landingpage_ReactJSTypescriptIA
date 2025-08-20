@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gradient">Marketing Pro</h1>
+            <h1 className="text-2xl font-bold text-gradient">Header.tsx - Marketing Pro</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -38,7 +38,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="corporate" size="lg">
-              Falar com Especialista
+              Falar com Especialista - Douglas Header.tsx
             </Button>
           </div>
 

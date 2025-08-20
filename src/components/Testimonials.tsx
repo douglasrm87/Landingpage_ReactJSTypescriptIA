@@ -35,7 +35,7 @@ const Testimonials = () => {
       <div className="container-corporate">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            O que nossos <span className="text-gradient">clientes</span> dizem
+            Testimonials.tsx - O que nossos <span className="text-gradient">clientes</span> dizem
           </h2>
         </div>
 

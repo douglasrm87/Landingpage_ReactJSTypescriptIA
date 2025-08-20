@@ -34,7 +34,7 @@ const WhyChoose = () => {
       <div className="container-corporate">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            Por que escolher a <span className="text-gradient">Marketing Pro</span>?
+            WhyChoose.tsx - Por que escolher a <span className="text-gradient">Marketing Pro</span>?
           </h2>
         </div>
 

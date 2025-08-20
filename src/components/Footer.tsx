@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Logo and Copyright */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-gradient mb-2">Marketing Pro</h3>
+            <h3 className="text-xl font-bold text-gradient mb-2">Footer.tsx - Marketing Pro</h3>
             <p className="text-sm text-muted-foreground">© 2025 Marketing Pro. Todos os direitos reservados.</p>
           </div>
 

@@ -7,7 +7,7 @@ import featureTeam from "@/assets/feature-team.jpg";
 
 const Features = () => {
   const mainFeature = {
-    title: "Estratégia Completa",
+    title: "Estratégia Completa - Features.tsx",
     description: "Análise, planejamento e execução de campanhas multicanal",
     image: featureStrategy,
     badge: "Metodologia Própria"
@@ -42,7 +42,7 @@ const Features = () => {
       <div className="container-corporate">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            <span className="text-gradient">Features</span>
+            <span className="text-gradient">Features - Feature.tsx</span>
           </h2>
         </div>
 

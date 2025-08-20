@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="flex justify-center lg:justify-start">
               <Badge variant="secondary" className="px-4 py-2 text-sm font-semibold bg-primary-light text-primary border-primary/20">
                 <Star className="w-4 h-4 mr-2 fill-current" />
-                Google Partner Premier
+                Google Partner Premier - Hero.tsx
               </Badge>
             </div>
 

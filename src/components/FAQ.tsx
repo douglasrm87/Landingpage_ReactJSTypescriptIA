@@ -31,7 +31,7 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-              Perguntas <span className="text-gradient">Frequentes</span>
+              FAQ.tsx - Perguntas <span className="text-gradient">Frequentes</span>
             </h2>
           </div>
 
