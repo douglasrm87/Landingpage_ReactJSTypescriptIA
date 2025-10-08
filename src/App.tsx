@@ -7,8 +7,10 @@
  * - Uses React Router's `BrowserRouter` and `Routes` for client-side routing.
  * - Defines the main route (`/`) and a catch-all route for 404 pages.
  * Para rodar 
-    
-    npm run dev
+
+npm install    
+npm install -g vite
+npm run dev
 
 
  * 
